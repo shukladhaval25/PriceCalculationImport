@@ -130,6 +130,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SampleDataFile\SG_Final_22.125.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

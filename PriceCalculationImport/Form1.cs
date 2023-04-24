@@ -120,7 +120,7 @@ namespace PriceCalculationImport
                 }
 
                 // save the file
-                File.WriteAllText(@"D:\FinalProcessWithPriceCalcuation.csv", sb.ToString());
+                File.WriteAllText(System.Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments) + @"\FinalProcessWithPriceCalcuation.csv", sb.ToString());
             }
         }
 
@@ -221,7 +221,7 @@ namespace PriceCalculationImport
                 }
 
                 // save the file
-                File.WriteAllText(@"D:\Codingvila.csv", sb.ToString());
+                File.WriteAllText(System.Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments) + @"\Codingvila.csv", sb.ToString());
             }
         }
     }
